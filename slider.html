@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head style='none'>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style/normalize.css"> -->
+    <link rel="stylesheet" href="style/slider.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="viewPort">
+            <!-- header -->
+            <header>
+                <div class="head">
+                    <div class="head-wrap">
+                        <div class="head-logo">
+                            <a href="#"><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <button class="head-navi">
+                            <a href="#"><img src="img/burger.png" alt=""></a>&nbsp&nbsp&nbsp<span>&#8722&nbsp Navigation</span>
+                        </button>
+                        <div class="phone head-contact">
+                            <p><span style='font-size:13px'>Our phone &nbsp &nbsp</span><strong>255&#x2212<!--   -->322&#x2212<!--   -->445</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--  -->
+            <!-- слайдер -->
+            <ul id="slidewrapper">
+                <li class="slider">
+                    <div class='slid' style='background-image:url(img/homepage_fon.png); background-size:cover'>
+                        <div class="content-hola">
+                            <a href="#"><img src="img/homepageHola.png" alt="" /></a>
+                        </div>
+                        <div class="box-extended">
+                            <h1>We have extended</h1>
+                            <label class="hamburger-icon">
+                                <a href="#">
+									<span>&nbsp;</span>
+									<span>&nbsp;</span>
+									<span>&nbsp;</span>
+								</a>
+                            </label>
+                            <br/>
+                            <h1 class='extended'>driving axperience</h1>
+                        </div>
+                        <div class="box-evolution">
+                            <hr width="19" color="black" /><span class="evolution"> &nbsp &nbsp &nbsp &nbsp  Driving Digital Evolution  &nbsp<img src="img/Arrow_next.png" alt=""></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class='slid' style='background-image: url(img/services.png); background-size:cover'>
+                        <!-- контент 2-й страницы -->
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class='slid' style='background: orange'>
+                    </div>
+                </li>
+            </ul>
+            <!--  -->
+            <!-- боковые кнопки -->
+            <div id="prev-next-btns">
+                <div id="prev-btn">&laquo</div>
+                <div id="next-btn">&raquo</div>
+            </div>
+            <!--  -->
+            <!-- нижний скроллбар -->
+            <div id="nav-btns">
+                <div class="btn-box first">
+                    <img class="slide-nav-btn left activ" src="img/homepage-activ.png" alt="">
+                    <img class="slide-nav-btn info" src="img/homepage-click.png" alt="">
+                </div>
+                <div class="btn-box second">
+                    <img class="slide-nav-btn center" src="img/btn-pasiv.png" alt="">
+                    <img class="slide-nav-btn info2" src="img/homepage-click.png" alt="">
+                </div>
+                <div class="btn-box tree">
+                    <img class="slide-nav-btn right" src="img/btn-pasiv.png" alt="">
+                </div>
+            </div>
+            <!--  -->
+            <div class="box-social">
+                <a href="#" class="social-feisbook"><img src="img/homepageFeisbook2.png" alt="" /></a>
+                <a href="#" class="social-tviter"><img src="img/homepage-tvit2.png" alt="" /></a>
+            </div>
+        </div>
+        <!--vievport-->
+    </div>
+    <!--wrapper-->
+    <script src='src/slider.js'></script>
+</body>
+
+</html>
